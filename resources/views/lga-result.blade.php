@@ -42,7 +42,7 @@
                                             <div class="col-md-6">
                                                 <label for="lga" class="form-label">LGA</label>
                                                 <select class="form-select" id="lga" name="lga" onchange="get_options('wards',this.value,'#ward')" required>
-                                                    <option>Select State First</option>
+                                                    <option value="">Select State First</option>
                                                 </select>
                                                 @if ($errors->has('lga'))
                                                     <li style="color:red;">{{ $errors->first('lga') }}</li>

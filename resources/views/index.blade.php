@@ -42,7 +42,7 @@
                                             <div class="col-md-3">
                                                 <label for="lga" class="form-label">LGA</label>
                                                 <select class="form-select" id="lga" name="lga" onchange="get_options('wards',this.value,'#ward')" required>
-                                                    <option>Select State First</option>
+                                                    <option value="">Select State First</option>
                                                 </select>
                                                 @if ($errors->has('lga'))
                                                     <li style="color:red;">{{ $errors->first('lga') }}</li>
@@ -52,7 +52,7 @@
                                             <div class="col-md-3">
                                                 <label for="ward" class="form-label">Ward</label>
                                                 <select class="form-select" id="ward" name="ward" onchange="get_options('polling-units',this.value,'#polling_unit')" required>
-                                                    <option>Select LGA First</option>
+                                                    <option value="">Select LGA First</option>
                                                 </select>
                                                 @if ($errors->has('ward'))
                                                     <li style="color:red;">{{ $errors->first('ward') }}</li>
@@ -62,7 +62,7 @@
                                             <div class="col-md-3">
                                                 <label for="polling_unitt" class="form-label">Polling Unit</label>
                                                 <select class="form-select" id="polling_unit" name="polling_unit" required>
-                                                    <option>Select Ward First</option>
+                                                    <option value="">Select Ward First</option>
                                                 </select>
                                                 @if ($errors->has('polling_unit'))
                                                     <li style="color:red;">{{ $errors->first('polling_unit') }}</li>
