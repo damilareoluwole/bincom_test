@@ -1,10 +1,7 @@
-## About Covid Tracking
+## About Bincom Test
 
-The app is designed to give users real time update on nearby covid 19 cases and world news and updates. The features are:
+This is system designed in response to the test organised by bincom.
+The system is designed with Html, css, Javascrip, Ajax, PHP/Laravel and Mysql Database.
+Link to database: https://drive.google.com/file/d/0B77xAtHK1hd4Ukx6SHpqTkd6TWM/view
 
-- Report covid 19 cases by health workers (positive, discharge, death).
-- Reporting covid 19 cases to the nearest centres.
-- Booking appointment for vaccination.
-- Reporting complications.
-- Check vaccination status.
-- Get world news.
+
